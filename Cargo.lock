@@ -786,8 +786,8 @@ dependencies = [
 
 [[package]]
 name = "hdi"
-version = "0.4.0-beta-dev.8"
-source = "git+https://github.com/holochain/holochain?rev=f010279667aa49b620f2d053b1cc9dc3e12ad76c#f010279667aa49b620f2d053b1cc9dc3e12ad76c"
+version = "0.3.1"
+source = "git+https://github.com/holochain/holochain?rev=f5270601c1a489086fed853812e1326726210dfd#f5270601c1a489086fed853812e1326726210dfd"
 dependencies = [
  "hdk_derive",
  "holo_hash",
@@ -802,8 +802,8 @@ dependencies = [
 
 [[package]]
 name = "hdk"
-version = "0.3.0-beta-dev.12"
-source = "git+https://github.com/holochain/holochain?rev=f010279667aa49b620f2d053b1cc9dc3e12ad76c#f010279667aa49b620f2d053b1cc9dc3e12ad76c"
+version = "0.2.1"
+source = "git+https://github.com/holochain/holochain?rev=f5270601c1a489086fed853812e1326726210dfd#f5270601c1a489086fed853812e1326726210dfd"
 dependencies = [
  "getrandom",
  "hdi",
@@ -821,8 +821,8 @@ dependencies = [
 
 [[package]]
 name = "hdk_derive"
-version = "0.3.0-beta-dev.8"
-source = "git+https://github.com/holochain/holochain?rev=f010279667aa49b620f2d053b1cc9dc3e12ad76c#f010279667aa49b620f2d053b1cc9dc3e12ad76c"
+version = "0.2.1"
+source = "git+https://github.com/holochain/holochain?rev=f5270601c1a489086fed853812e1326726210dfd#f5270601c1a489086fed853812e1326726210dfd"
 dependencies = [
  "darling 0.14.1",
  "heck",
@@ -857,8 +857,8 @@ checksum = "7f24254aa9a54b5c858eaee2f5bccdb46aaf0e486a595ed5fd8f86ba55232a70"
 
 [[package]]
 name = "holo_hash"
-version = "0.3.0-beta-dev.6"
-source = "git+https://github.com/holochain/holochain?rev=f010279667aa49b620f2d053b1cc9dc3e12ad76c#f010279667aa49b620f2d053b1cc9dc3e12ad76c"
+version = "0.2.1"
+source = "git+https://github.com/holochain/holochain?rev=f5270601c1a489086fed853812e1326726210dfd#f5270601c1a489086fed853812e1326726210dfd"
 dependencies = [
  "base64",
  "blake2b_simd",
@@ -873,8 +873,8 @@ dependencies = [
 
 [[package]]
 name = "holochain_integrity_types"
-version = "0.3.0-beta-dev.8"
-source = "git+https://github.com/holochain/holochain?rev=f010279667aa49b620f2d053b1cc9dc3e12ad76c#f010279667aa49b620f2d053b1cc9dc3e12ad76c"
+version = "0.2.1"
+source = "git+https://github.com/holochain/holochain?rev=f5270601c1a489086fed853812e1326726210dfd#f5270601c1a489086fed853812e1326726210dfd"
 dependencies = [
  "holo_hash",
  "holochain_serialized_bytes",
@@ -943,8 +943,8 @@ dependencies = [
 
 [[package]]
 name = "holochain_zome_types"
-version = "0.3.0-beta-dev.9"
-source = "git+https://github.com/holochain/holochain?rev=f010279667aa49b620f2d053b1cc9dc3e12ad76c#f010279667aa49b620f2d053b1cc9dc3e12ad76c"
+version = "0.2.1"
+source = "git+https://github.com/holochain/holochain?rev=f5270601c1a489086fed853812e1326726210dfd#f5270601c1a489086fed853812e1326726210dfd"
 dependencies = [
  "holo_hash",
  "holochain_integrity_types",
@@ -1055,8 +1055,8 @@ dependencies = [
 
 [[package]]
 name = "kitsune_p2p_bin_data"
-version = "0.3.0-beta-dev.4"
-source = "git+https://github.com/holochain/holochain?rev=f010279667aa49b620f2d053b1cc9dc3e12ad76c#f010279667aa49b620f2d053b1cc9dc3e12ad76c"
+version = "0.2.1"
+source = "git+https://github.com/holochain/holochain?rev=f5270601c1a489086fed853812e1326726210dfd#f5270601c1a489086fed853812e1326726210dfd"
 dependencies = [
  "base64",
  "derive_more",
@@ -1068,8 +1068,8 @@ dependencies = [
 
 [[package]]
 name = "kitsune_p2p_block"
-version = "0.3.0-beta-dev.5"
-source = "git+https://github.com/holochain/holochain?rev=f010279667aa49b620f2d053b1cc9dc3e12ad76c#f010279667aa49b620f2d053b1cc9dc3e12ad76c"
+version = "0.2.1"
+source = "git+https://github.com/holochain/holochain?rev=f5270601c1a489086fed853812e1326726210dfd#f5270601c1a489086fed853812e1326726210dfd"
 dependencies = [
  "kitsune_p2p_bin_data",
  "kitsune_p2p_timestamp",
@@ -1079,8 +1079,8 @@ dependencies = [
 
 [[package]]
 name = "kitsune_p2p_dht"
-version = "0.3.0-beta-dev.4"
-source = "git+https://github.com/holochain/holochain?rev=f010279667aa49b620f2d053b1cc9dc3e12ad76c#f010279667aa49b620f2d053b1cc9dc3e12ad76c"
+version = "0.2.1"
+source = "git+https://github.com/holochain/holochain?rev=f5270601c1a489086fed853812e1326726210dfd#f5270601c1a489086fed853812e1326726210dfd"
 dependencies = [
  "colored",
  "derivative",
@@ -1102,8 +1102,8 @@ dependencies = [
 
 [[package]]
 name = "kitsune_p2p_dht_arc"
-version = "0.3.0-beta-dev.3"
-source = "git+https://github.com/holochain/holochain?rev=f010279667aa49b620f2d053b1cc9dc3e12ad76c#f010279667aa49b620f2d053b1cc9dc3e12ad76c"
+version = "0.2.1"
+source = "git+https://github.com/holochain/holochain?rev=f5270601c1a489086fed853812e1326726210dfd#f5270601c1a489086fed853812e1326726210dfd"
 dependencies = [
  "derive_more",
  "gcollections",
@@ -1114,8 +1114,8 @@ dependencies = [
 
 [[package]]
 name = "kitsune_p2p_timestamp"
-version = "0.3.0-beta-dev.0"
-source = "git+https://github.com/holochain/holochain?rev=f010279667aa49b620f2d053b1cc9dc3e12ad76c#f010279667aa49b620f2d053b1cc9dc3e12ad76c"
+version = "0.2.1"
+source = "git+https://github.com/holochain/holochain?rev=f5270601c1a489086fed853812e1326726210dfd#f5270601c1a489086fed853812e1326726210dfd"
 dependencies = [
  "chrono",
  "derive_more",
