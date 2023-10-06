@@ -74,7 +74,14 @@ pub fn memory_exists(bytes: &Vec<u8>) -> AppResult<bool> {
     let hash = mere_memory_types::calculate_hash( bytes );
     let path = make_hash_path( &hash )?;
 
-    let links = get_links( path.path_entry_hash()?, LinkTypes::ByHash, Some(LinkTag::new( TAG_MEMORY )) )?;
+    let links = get_links( GetLinksInput {
+        base_address: path.path_entry_hash()?.into(),
+        link_type: LinkTypes::ByHash.try_into_filter()?,
+        tag_prefix: Some(LinkTag::new( TAG_MEMORY )),
+        after: None,
+        before: None,
+        author: None
+    })?;
 
     Ok( links.len() > 0 )
 }

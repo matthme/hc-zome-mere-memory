@@ -17,6 +17,6 @@ getrandom = { version = "=0.2.7", features = ["custom"] } # temporary fix for co
                                                           # - v0.3.0-beta-dev.8
                                                           # - v0.2.1-beta-rc.0
                                                           # - v0.2.1
-hdi = { git = "https://github.com/holochain/holochain", rev = "f5270601c1a489086fed853812e1326726210dfd" }
-serde = "1"
+hdi = "0.4.0-beta-dev.12"
+serde = ">1.0.166"
 sha2 = "0"

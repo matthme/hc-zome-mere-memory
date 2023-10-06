@@ -13,7 +13,7 @@ name = "mere_memory"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-hdi = { git = "https://github.com/holochain/holochain", rev = "f5270601c1a489086fed853812e1326726210dfd" }
+hdi = "0.4.0-beta-dev.12"
 mere_memory_types = {path = "../mere_memory_types"}
-serde = "1"
+serde = ">1.0.166"
 sha2 = "0"
